@@ -1,5 +1,6 @@
-from selenium import webdriver
+from Booking.booking import Booking
 
 
-driver = webdriver.Chrome()
-driver.get("https://www.seleniumeasy.com/selenium-tutorials/working-with-date-picker-calendar-using-webdriver")
+with Booking() as bot:
+    bot.land_first_page()
+    bot.change_currency()
