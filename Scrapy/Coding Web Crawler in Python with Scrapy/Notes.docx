@@ -1,0 +1,33 @@
+ref: Neuralnine - Yt | Coding Web Crawler in Python with Scrapy
+https://www.youtube.com/watch?v=m_3gjHGxIJc
+
+
+scrapy startproject neuralcrawling
+(it will create a project named neuralcrawling)
+
+
+Inside neuralcrawling folder, there will be another folder with the same name neuralcrawling and a scrapy.cfg file
+
+
+Inside neuralcrawling (subfolder)
+we have a folder named spiders, and few python files (__init__.py, items.py, middlewares.py, pipelines.py, settings.py)
+
+
+Inside spiders (subfolder)
+we have only one file __init__.py 
+
+
+
+create a new file inside spiders folder, crawling_spider.py (manually)
+
+
+
+>> To run
+
+cd neuralcrawling (the main project, not the subfolder with the same name)
+scrapy crawl mycrawler
+
+
+if you want to save the result in json file
+
+scrapy crawl mycrawler -o output.json
