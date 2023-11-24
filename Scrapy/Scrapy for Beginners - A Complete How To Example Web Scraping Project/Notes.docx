@@ -1,0 +1,19 @@
+ref: https://www.youtube.com/watch?v=s4jtkzHhLzY
+
+Yt - John Watson Rooney | video - Scrapy for Beginners - A Complete How To Example Web Scraping Project
+
+target website : https://www.whiskyshop.com/scotch-whisky?item_availability=In+Stock
+
+
+
+>> How to run
+scrapy startproject whiskyscraper
+
+cd whiskyscraper
+
+scrapy crawl whisky (spidername = whisky)
+
+
+# to save the output in a json file
+
+scrapy crawl whisky -O output.json
