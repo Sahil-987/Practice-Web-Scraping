@@ -1,0 +1,22 @@
+ref: Scrapy and Selenium - Scraping Dynamic Sites Faster! | codeRECODE - yt
+
+https://www.youtube.com/watch?v=2LwrUu9yTAo
+
+
+The target website
+
+Product listing is dynamic, so we cannot scrape this, using Scrapy
+first we use Selenium to extract all the urls
+and then Scrapy to extract content from each url
+
+################
+
+scrapy startproject sel_scrapy
+
+cd sel_scrapy 
+
+scrapy genspider laptops x
+(x represents starturl)
+
+
+scrapy crawl laptops
