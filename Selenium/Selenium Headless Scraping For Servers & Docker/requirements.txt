@@ -1,1 +1,4 @@
-pip install selenium beautifulsoup4 webdriver_manager lxml
+selenium==4.14.0
+beautifulsoup4==4.11.2
+webdriver_manager==4.0.1
+lxml
